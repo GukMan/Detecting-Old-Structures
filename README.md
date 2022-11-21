@@ -74,3 +74,9 @@
     
    ![image](https://user-images.githubusercontent.com/73925429/203080560-002f164a-affd-4b7d-99c2-7c008232c6cf.png)
 
+## 📝 **Modeling**
+
+- Baseline - YOLOv4
+   | Params | max_batch | # of labels | subdivision | IoU_threshold | IoU_loss | mAP |
+    | --- | --- | --- | --- | --- | --- | --- |
+    | 계 | 10000 | 5 | 16 | 0.213 | CIoU | 77.46% |
