@@ -63,7 +63,8 @@
 ## ⚙️ **Preprocess**
 
 - resize & padding
-    - 080 * 1440 → 416 * 416
+    - 1080 * 1440 → 416 * 416
     - 사진의 크기도 컸고, 일반적인 학습사이즈인 416 * 416으로 resize
 - polygon to bounding box
     - 라벨 데이터가 polygon 형태로 되어 있어서(xyxy 형태) 이를 bounding box형태로 바꿔줌(xywh형태)
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3acc479d-c845-42b1-a0ff-c1b4390af45c/Untitled.png)
