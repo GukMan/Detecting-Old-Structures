@@ -123,4 +123,34 @@
      
       성능 하락
 
+---
+
 ## 📊 **수행 결과**
+
+- Best Params
+
+  ![image](https://user-images.githubusercontent.com/73925429/203095014-d8dbe5fe-b0f0-42bf-b8ab-2812a9dcc0bf.png)
+  
+- confidence
+
+  ![image](https://user-images.githubusercontent.com/73925429/203095108-0aead6ed-acc2-4d1c-8e8e-9ef192993481.png)
+  
+---
+
+## 🖼️ **적용**
+
+- 성수동
+
+  ![image](https://user-images.githubusercontent.com/73925429/203095307-4cebec18-2ffe-409e-acf8-949dfae194f5.png)
+
+- 알파코
+
+  ![image](https://user-images.githubusercontent.com/73925429/203095383-1507e609-7702-42e0-99a9-23e0e1884121.png)
+
+- 🙌🏻 **보완점**
+
+    ~추후 추가 예정~
+    
+## Reference
+
+[1] [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/pdf/2004.10934.pdf): Bochkovskiy, Alexey, Chien-Yao Wang, and Hong-Yuan Mark Liao. "Yolov4: Optimal speed and accuracy of object detection." arXiv preprint arXiv:2004.10934 (2020).
