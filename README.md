@@ -118,7 +118,8 @@
 - 육안으로 구분하기 힘든 라벨을 제거하면, 나머지 라벨을 헷갈리지 않고 잘 예측할거라 생각
 
       block 라벨 제거 → class = 4개
-    ![image](https://user-images.githubusercontent.com/73925429/203084955-98dcea0c-b18d-4c7c-8787-424b45ba1d32.png)
+      
+    <img width="911" alt="image" src="https://user-images.githubusercontent.com/73925429/203097133-fb0c5e58-5d06-4db1-aff4-6bb9123e19b8.png">
 
       성능 하락
 
