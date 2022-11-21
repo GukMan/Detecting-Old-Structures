@@ -54,6 +54,36 @@
 
 - AI Hub - 서울시 노후 주택 균열 데이터
 - 5개의 카테고리와 데이터 20,663개 사용
-    | 카테고리 | 균열\n(Crack) | 박리/박락\n(Peel-off) | 철근노출\n(Rebar-Exposure) | 대지\n(Block) | 마감\n(Finish) |
+    | 카테고리 | 균열 (Crack) | 박리/박락 (Peel-off) | 철근노출 (Rebar-Exposure) | 대지 (Block) | 마감 (Finish) |
     | --- | --- | --- | --- | --- | --- |
     | 계 | 4384 | 4596 | 4414 | 3559 | 3710 |
+---
+    <table>
+        <thead>
+            <tr>
+                <th>카테고리</th>
+                <th>균열</th>
+                <th>Layer 3</th>
+                <th>Layer 3</th>
+                <th>Layer 3</th>
+                <th>Layer 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan=4>L1 Name</td>
+                <td rowspan=2>L2 Name A</td>
+                <td>L3 Name A</td>
+            </tr>
+            <tr>
+                <td>L3 Name B</td>
+            </tr>
+            <tr>
+                <td rowspan=2>L2 Name B</td>
+                <td>L3 Name C</td>
+            </tr>
+            <tr>
+                <td>L3 Name D</td>
+            </tr>
+        </tbody>
+    </table>
