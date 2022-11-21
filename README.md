@@ -57,33 +57,13 @@
     | 카테고리 | 균열 (Crack) | 박리/박락 (Peel-off) | 철근노출 (Rebar-Exposure) | 대지 (Block) | 마감 (Finish) |
     | --- | --- | --- | --- | --- | --- |
     | 계 | 4384 | 4596 | 4414 | 3559 | 3710 |
+
 ---
-    <table>
-        <thead>
-            <tr>
-                <th>카테고리</th>
-                <th>균열</th>
-                <th>Layer 3</th>
-                <th>Layer 3</th>
-                <th>Layer 3</th>
-                <th>Layer 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan=4>L1 Name</td>
-                <td rowspan=2>L2 Name A</td>
-                <td>L3 Name A</td>
-            </tr>
-            <tr>
-                <td>L3 Name B</td>
-            </tr>
-            <tr>
-                <td rowspan=2>L2 Name B</td>
-                <td>L3 Name C</td>
-            </tr>
-            <tr>
-                <td>L3 Name D</td>
-            </tr>
-        </tbody>
-    </table>
+
+## ⚙️ **Preprocess**
+
+- resize & padding
+    - 080 * 1440 → 416 * 416
+    - 사진의 크기도 컸고, 일반적인 학습사이즈인 416 * 416으로 resize
+- polygon to bounding box
+    - 라벨 데이터가 polygon 형태로 되어 있어서(xyxy 형태) 이를 bounding box형태로 바꿔줌(xywh형태)
