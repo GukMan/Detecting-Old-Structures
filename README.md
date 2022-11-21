@@ -137,7 +137,7 @@
   
 ---
 
-## 🖼️ **적용**
+## 🖼️ **실생활 적용**
 
 - 성수동
 
@@ -147,10 +147,14 @@
 
   ![image](https://user-images.githubusercontent.com/73925429/203095383-1507e609-7702-42e0-99a9-23e0e1884121.png)
 
-- 🙌🏻 **보완점**
+---
+
+## 🙌🏻 **보완점**
 
     ~추후 추가 예정~
     
+---
+
 ## Reference
 
 [1] [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/pdf/2004.10934.pdf): Bochkovskiy, Alexey, Chien-Yao Wang, and Hong-Yuan Mark Liao. "Yolov4: Optimal speed and accuracy of object detection." arXiv preprint arXiv:2004.10934 (2020).
