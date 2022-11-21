@@ -74,6 +74,8 @@
     
    ![image](https://user-images.githubusercontent.com/73925429/203080560-002f164a-affd-4b7d-99c2-7c008232c6cf.png)
 
+---
+
 ## 📝 **Modeling**
 
 - Baseline - YOLOv4
@@ -116,3 +118,19 @@
       3번째 경우가 underfit이라고 판단해서 max_batch를 15,000으로 증가
       
       mAP 78.36% → mAP 81.78% 증가
+      
+- max_batch 10,000 → 15,000 + ignore_threshold(0.7 → 0.8)
+
+      mAP 77.46%(Baseline)  → mAP 83.41%로 증가
+      
+- 육안으로 구분하기 힘든 라벨을 제거하면, 나머지 라벨을 헷갈리지 않고 잘 예측할거라 생각
+
+      block 라벨 제거 → class = 4개
+      
+     ![image](https://user-images.githubusercontent.com/73925429/203084213-1fd5b8cc-3919-473c-b690-d96cc08b3814.png)
+     
+      성능 하락
+
+---
+
+## 📊 **수행 결과**
