@@ -104,8 +104,6 @@
 
 - IoU normalizer(0.07 → 0.5) + learning rate 증가
 
-      iou normalizer를 0.5로 하면 좋다는 레퍼런스 찾은 사람 누구임..
-
       learning rate의 폭을 크게 잡았더니 결과 값이 좋지 않아 수정
       
      ![image](https://user-images.githubusercontent.com/73925429/203082171-423c9693-8474-46a9-a505-1e59e170cb5a.png)
