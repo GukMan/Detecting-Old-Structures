@@ -111,7 +111,7 @@
 
       learning rate의 폭을 크게 잡았더니 결과 값이 좋지 않아 수정
       
-      ![image](https://user-images.githubusercontent.com/73925429/203082171-423c9693-8474-46a9-a505-1e59e170cb5a.png)
+     ![image](https://user-images.githubusercontent.com/73925429/203082171-423c9693-8474-46a9-a505-1e59e170cb5a.png)
 
       3번째 경우가 underfit이라고 판단해서 max_batch를 15,000으로 증가
       
