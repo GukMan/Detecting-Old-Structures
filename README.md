@@ -80,3 +80,23 @@
    | Params | max_batch | # of labels | subdivision | IoU_threshold | IoU_loss | mAP |
     | --- | --- | --- | --- | --- | --- | --- |
     | 계 | 10000 | 5 | 16 | 0.213 | CIoU | 77.46% |
+
+> subdivision(한번에 데이터를 처리하는 양) : 16 → 32 로 증가
+>> weight의 변화가 적어 성능이 떨어질 것이라 예측
+>>> mAP 77.46 → 74.03% 하락
+>> IoU_loss : CIoU → DIoU, GIoU
+>>> 큰 차이 X
+>>max_batch 10,000 : mAP 77.46%
+>>>10,000 → 5,000 (감소) : underfit  mAP 68.06%
+>>>10,000 → 15,000 (증가) : 성능 개선 mAP 82.03%
+>>IoU threshold(예측값과 실제값이 겹치는 정도의 기준)
+>>>max_batch 10,000 → 15,000 + IoU threshold(0.213) : mAP 82.03%
+>>>max_batch 10,000 → 15,000 + IoU threshold(0.750) : mAP 79.51%
+>>>max_batch 10,000 → 15,000 + IoU threshold(0.950) : mAP 70.61%
+>>IoU normalizer(0.07 → 0.5) + learning rate 증가
+>>iou normalizer를 0.5로 하면 좋다는 레퍼런스 찾은 사람 누구임..
+>>learning rate의 폭을 크게 잡았더니 결과 값이 좋지 않아 수정
+>>![image](https://user-images.githubusercontent.com/73925429/203082171-423c9693-8474-46a9-a505-1e59e170cb5a.png)
+
+>>3번째 경우가 underfit이라고 판단해서 max_batch를 15,000으로 증가
+>>>mAP 78.36% → mAP 81.78% 증가
