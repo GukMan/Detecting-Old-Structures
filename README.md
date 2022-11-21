@@ -21,23 +21,23 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3>국승용</td>
+            <td>국승용</td>
             <td>PPT</td>
         </tr>
          <tr>
-            <td rowspan=3>강효진</td>
+            <td>강효진</td>
             <td>PPT</td>
         </tr>
         <tr>
-            <td rowspan=3>김규인</td>
+            <td>김규인</td>
             <td>PPT</td>
         </tr>
         <tr>
-            <td rowspan=3>여민희</td>
+            <td>여민희</td>
             <td>PPT</td>
         </tr>
         <tr>
-            <td rowspan=3>이재혁</td>
+            <td>이재혁</td>
             <td>PPT</td>
         </tr>
     </tbody>
