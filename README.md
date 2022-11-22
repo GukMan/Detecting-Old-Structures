@@ -129,7 +129,7 @@
 
 - Best Params
 
-  ![image](https://user-images.githubusercontent.com/73925429/203095014-d8dbe5fe-b0f0-42bf-b8ab-2812a9dcc0bf.png)
+  <img width="766" alt="image" src="https://user-images.githubusercontent.com/114709620/203184548-1939b2eb-89ec-4c09-8cdd-fe1c37a5f29f.png">
   
 - confidence
 
