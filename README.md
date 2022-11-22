@@ -76,6 +76,10 @@
     | Params | max_batch | # of labels | subdivision | IoU_threshold | IoU_loss | mAP |
     | --- | --- | --- | --- | --- | --- | --- |
     | 계 | 10000 | 5 | 16 | 0.213 | CIoU | 77.46% |
+    
+ -  평가지표 
+    - mAP(mean Average Precision) : 
+    - IoU(Intersection over Union) : 
 
 - subdivision(한번에 데이터를 처리하는 양) : 16 → 32 로 증가
 
