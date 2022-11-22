@@ -78,8 +78,8 @@
     | 계 | 10000 | 5 | 16 | 0.213 | CIoU | 77.46% |
     
  -  평가지표 
-    - mAP(mean Average Precision) : 
-    - IoU(Intersection over Union) : 
+    - mAP(mean Average Precision) : 여러 object detector의 Average Precision의 면적으로 평가하는 방식. AP는 인식기가 검출한 정보 중에서 ground truth와 일치하는 비율들의 평균.
+    - IoU(Intersection over Union) : 실제 객체 위치 ground truth와 예측값 prediction 두 box가 중복되는 영역의 크기를 통해 평가하는 방식으로 겹치는 영역이 넓을수록 잘 예측한 것으로 평가 
 
 - subdivision(한번에 데이터를 처리하는 양) : 16 → 32 로 증가
 
